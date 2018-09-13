@@ -44,7 +44,6 @@ Template.body.events({
       owner: Meteor.userId(),
       username: Meteor.user().username,
     });
-    });
  
     // Clear form
     target.text.value = '';
